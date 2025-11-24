@@ -18,7 +18,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - name: "Checkout the repository"
-        uses: "actions/checkout@v5.0.0"
+        uses: "actions/checkout@v6.0.0"
 
       - name: "Run hassfest validation"
         uses: "home-assistant/actions/hassfest@master"
@@ -28,7 +28,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - name: "Checkout the repository"
-        uses: "actions/checkout@v5.0.0"
+        uses: "actions/checkout@v6.0.0"
 
       - name: "Run HACS validation"
         uses: "hacs/action@main"
@@ -40,7 +40,7 @@ jobs:
     name: Tests
     steps:
       - name: Check out code from GitHub
-        uses: "actions/checkout@v5.0.0"
+        uses: "actions/checkout@v6.0.0"
       - name: Setup Python ${{ env.DEFAULT_PYTHON }}
         uses: "actions/setup-python@v5.6.0"
         with:
@@ -64,7 +64,7 @@ jobs:
     name: Lint
     steps:
       - name: Check out code from GitHub
-        uses: "actions/checkout@v5.0.0"
+        uses: "actions/checkout@v6.0.0"
       - name: Setup Python ${{ env.DEFAULT_PYTHON }}
         uses: "actions/setup-python@v5.6.0"
         with:
@@ -84,7 +84,7 @@ jobs:
     name: Typing
     steps:
       - name: Check out code from GitHub
-        uses: "actions/checkout@v5.0.0"
+        uses: "actions/checkout@v6.0.0"
       - name: Setup Python ${{ env.DEFAULT_PYTHON }}
         uses: "actions/setup-python@v5.6.0"
         with:

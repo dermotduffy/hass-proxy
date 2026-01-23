@@ -20,12 +20,7 @@ There are two main styles of proxying:
 
 ## Installation
 
-Add this repository as a custom repository for HACS:
-
-- Navigate `HACS -> Integrations -> [Three dots menu] -> Custom repositories`
-- **Repository**: `https://github.com/dermotduffy/hass-web-proxy-integration/`
-- **Category**: `Integration`
-- Click `ADD`
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dermotduffy&repository=hass-web-proxy-integration&category=integration)
 
 Download the integration via HACS as normal:
 
@@ -165,3 +160,4 @@ All proxying is done by the integration which runs as part of the Home Assistant
 process itself. As such, this proxy is not expected to be particularly
 performant and excessive usage could slow Home Assistant itself down. This is
 unlikely to be noticeable in practice for casual usage.
+
